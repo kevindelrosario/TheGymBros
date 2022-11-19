@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>TheGymBros</title>
+ <!--Esta linea sirve para que funcione el modal-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!--Esta linea sirve para que funcione el modal FIN-->
+</head>
+
+<body id="body">
+
+    <!---->
+    <!--cabecera-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">opcion1</a></li>
+                <li><a href="#">opcion2</a></li>
+                <li><a href="#">opcion3</a></li>
+            </ul>
+        </nav>
+        <h1>TheGymBros</h1>
+    </header>
+
+    <!--Articulo 1-->
+    <article>
+        <!--seccion Boock de fotos-->
+                <section class="carouselInicio">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/gym1.jpg" class="d-block"  alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/gym1.jpg" class="d-block " alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/gym1.jpg" class="d-block " alt="...">
+                          </div>
+                        </div>
+                      </div>
+
+                </section>
+
+        <!--seccion Galeria de fotos-->
+                <!--Galeria de fotos-->
+                <section id="galeria" class="container">
+                    <div class="text-center pt-5">
+                        <h2>Galeria</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. A iste reiciendis perspiciatis modi
+                                temporibus repellat hic quod asperiores? Quae dolorem blanditiis ex tempora sequi? Repudiandae eaque
+                                harum expedita provident quod.
+                            </p>
+                    </div>
+
+                    <div class="row">
+                        <!--Imagen galeria-->
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <img src="img/personaDeportiva/121-2.jpg" alt="Galeria imagen">
+                        </div>
+                        <!--Imagen galeria-->
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <img src="img/personaDeportiva/fitness_fotoshoot_Ryan_Oosterling_10-800x533.jpg" alt="Galeria imagen">
+                        </div>
+                        <!--Imagen galeria-->
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <img src="img/personaDeportiva/R.jpg" alt="Galeria imagen">
+                        </div>
+                    </div>
+
+                </section>
+        <!--seccion fotos MODAL-->
+            <section class="fotosModal">
+                <div class="row m-5">
+                    <h2>Nuestro local</h2>
+                    <!--pack de imagenes (1)-->
+                        <div class="col-lg-4 mb-4">
+                                <!--imagen-->
+                                <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1">
+                                    <img class="w-100 mb-4 rounded" src="img/fotoLocal/50-life-fitness-hammer.jpg" alt="">
+                                </a>
+                                <!--imagen-->
+                                <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2">
+                                    <img class="w-100 mb-4 rounded" class="foto2modal" src="img/fotoLocal/b5.jpg" alt="" >
+                                 </a> 
+
+                        </div>
+                    <!--pack de imagenes (2)-->
+                        <div class="col-lg-4 mb-4">
+                                <!--imagen-->
+                                <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3">
+                                    <img class="w-100 mb-4 rounded" src="img/fotoLocal/basic-fit-salles-de-sport-lorient-rue-georges-brassens-006.jpg" alt="">
+                                </a>
+                                <!--imagen-->
+                                <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
+                                    <img class="w-100 mb-4 rounded" src="img/fotoLocal/basic-fit-salles-de-sport-montauban-route-du-nord-005.jpg" alt="">
+                                </a> 
+                        </div>
+                    <!--pack de imagenes (3)-->
+                        <div class="col-lg-4 mb-4">
+                                <!--imagen-->
+                                <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5">
+                                    <img class="w-100 mb-4 rounded" src="img/fotoLocal/c2.jpg" alt="">
+                                </a>
+                                <!--imagen-->
+                                <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6">
+                                    <img class="w-100 mb-4 rounded" src="img/fotoLocal/gofitgimansio9-d021c3bbbb3e69c47ea10ca4bc852e3e-1200x800.jpg" alt="">
+                                </a> 
+                        </div>
+                </div>
+            </section>
+
+    </article>
+    <article class="planes">
+        <h2>Equipo de trabajo</h2>
+        <div class="card">
+            <img src="img/fotoPersonas/52a5351046bbd524cea07f350c1e5543.jpg" class="card-img-top" alt="...">
+          
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Saber mas</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/fotoPersonas/cropped-img_0610-768x999.jpg" class="card-img-top" alt="...">
+          
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Saber mas</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/fotoPersonas/Linus-webb3-kopia-1.jpg" class="card-img-top" alt="...">
+          
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Saber mas</a>
+            </div>
+          </div>
+          
+    </article>
+
+
+      <!--FOOTER-->
+    <footer>
+        <h5>Cierre de pagina</h5>
+    </footer>
+  <!--FOOTER END-->
+
+
+
+  
+               <!--********MODAL GALLERY*************-->
+
+    <!--Imagen 1-->
+
+    <!--
+        para que funcione la imagen solo hay que cambiar el: 
+            aria-labelledby="modalImage1" 
+        por el nombre que se puso en la imagen
+    -->
+    <div
+    tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true"
+    class="modal fade" id="modalImage1"> 
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="img/gym1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--Imagen 2-->
+    <div
+    tabindex="-1" aria-labelledby="modalImage2" aria-hidden="true"
+    class="modal fade" id="modalImage2"> 
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="img/gym2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--Imagen 3-->
+    <div
+    tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true"
+    class="modal fade" id="modalImage3"> 
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="img/gym2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--Imagen 4-->
+    <div
+    tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true"
+    class="modal fade" id="modalImage4"> 
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="img/gym1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--Imagen 5-->
+    <div
+    tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true"
+    class="modal fade" id="modalImage5"> 
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="img/gym1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--Imagen 6-->
+    <div
+    tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true"
+    class="modal fade" id="modalImage6"> 
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="img/gym2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+     
+      <!--********MODAL GALLERY*******end.******-->
+
+
+    <!--*****bootstrap********-->
+
+    <!--Esta linea sirve para que funcione el modal-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+   <!--Esta linea sirve para que funcione el modal fin.-->
+    <script src="js/main.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
